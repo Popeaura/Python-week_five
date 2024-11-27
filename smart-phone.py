@@ -25,9 +25,9 @@ phone1 = Smartphone("Samsung", "Galaxy S23", 85)
 phone2 = SmartphoneWithCamera("iPhone", "14 Pro", 90, 48)
 
 # Using Methods
-phone1.call()                          # Output: Samsung Galaxy S23 is making a call.
-phone1.battery_status()                # Output: Samsung Galaxy S23 has 85% battery remaining.
+phone1.call()               
+phone1.battery_status()           
 
-phone2.call()                          # Output: iPhone 14 Pro is making a call.
-phone2.take_photo()                    # Output: Taking a photo with 48 MP camera!
-phone2.battery_status()                # Output: iPhone 14 Pro has 90% battery remaining.
+phone2.call()                         
+phone2.take_photo()                   
+phone2.battery_status()               
