@@ -14,7 +14,7 @@ class Smartphone:
 # Child Class: SmartphoneWithCamera (Inheritance)
 class SmartphoneWithCamera(Smartphone):
     def __init__(self, brand, model, battery_life, camera_megapixels):
-        super().__init__(brand, model, battery_life)  # Inheriting from the parent class
+        super().__init__(brand, model, battery_life) 
         self.camera_megapixels = camera_megapixels
 
     def take_photo(self):
